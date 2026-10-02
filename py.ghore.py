@@ -1,0 +1,19 @@
+import random  
+
+
+list2=[]
+list1=[]
+while True :
+    menu=("1.oozv  2.exit")
+    while True :
+        match menu :
+            case "1" :
+                x=input("enter a name")
+                x.append(list1)
+
+                break
+            case "2" :
+                list2.append(list1.remove(0))
+                print(random.choice(list2))
+                break
+    break

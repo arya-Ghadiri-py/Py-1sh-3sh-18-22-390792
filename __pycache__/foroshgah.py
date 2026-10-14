@@ -1,4 +1,4 @@
-from majol import*
+from majol1 import*
 
 def foroshgah() :
     kif_pool=0
